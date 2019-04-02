@@ -1,2 +1,1 @@
-A material resource planning system with almost full functions: material maintain,BOM, inventory,etc
-It's for zhiyuan 
+use machine learning to predict the stock price
