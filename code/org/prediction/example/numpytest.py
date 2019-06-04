@@ -8,11 +8,14 @@ height = [1.87,  1.87, 1.82, 1.91, 1.90, 1.85]
 np_height = np.array(height)
 np_weight = np.array(weight)
 
+# the type of np_height
 print(type(np_height))
 
 # elements wise calculation
 bmi = np_weight / np_height ** 2
+print("bmi elements:")
 print(bmi)
+print("bmi > 24: ")
 print(bmi > 24)
 print(np_height * 2)
 print(bmi[bmi > 24]) # print the elements bigger than 24
